@@ -1,15 +1,20 @@
-## Queues
+## RPC Queues
 
-**gateway**
+Services provides through RPC Queues
 
-locations()
-  => location[]
-location( locationid )
-  => location
-products()
+**product**
+
+getProducts()
   => product[]
-product( productid )
+getProduct( productid )
   => product
+
+**storage**
+
+getLocations()
+  => location[]
+getLocation( locationid )
+  => location
 
 **vat-calculator**
 
@@ -21,19 +26,7 @@ caculateVat( price, product category )
 calculateDistance( locationCoords1, locationCoords2 )
   => walkingDistanceInMinutes, osmLink
 
-**storage**
-
-locations()
-  => location[]
-location( locationid )
-  => location
-
-**product**
-
-products()
-  => product[]
-product( productid )
-  => product
+## Worker Queues
 
 **csv-export**
 
