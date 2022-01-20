@@ -17,7 +17,7 @@ Services provides through RPC Queues
 
 - getProductQuantityAtLocation( productId, locationId )
   => productQuantityAtLocation
- - getAllProductQuantityAtLocations()
+ - getAllProductQuantitiesAtLocations()
   => productQuantityAtLocation[]
 
 **vat-calculator**
