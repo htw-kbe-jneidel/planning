@@ -4,31 +4,35 @@ Services provides through RPC Queues
 
 **product**
 
-getProducts()
+- getAllProducts()
   => product[]
-getProduct( productid )
+- getProduct( productid )
   => product
+- getAllStoreLocations()
+  => storeLocation[]
+- getStoreLocation( locationid )
+  => storeLocation
 
 **storage**
 
-getLocations()
-  => location[]
-getLocation( locationid )
-  => location
+- getProductQuantityAtLocation( productId, locationId )
+  => productQuantityAtLocation
+ - getAllProductQuantityAtLocations()
+  => productQuantityAtLocation[]
 
 **vat-calculator**
 
-caculateVat( price, product category )
+- caculateVat( price, product category )
   => vat
 
 **distance-calculator**
 
-calculateDistance( locationCoords1, locationCoords2 )
+- calculateDistance( startStoreLocationCoordinates, endStoreLocationCoordinates )
   => walkingDistanceInMinutes, osmLink
 
 ## Worker Queues
 
 **csv-export**
 
-createExport( product[] )
+- createExport( product[] )
   => csvFile
