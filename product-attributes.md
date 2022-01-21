@@ -1,25 +1,31 @@
 ## Product Attributes
 
-10 altogether
-
 **product:**
+
 - product:
   - id
   - name
   - image
   - category -> vat percentage
-  - price netto
+  - price brutto
 - location
   - id
   - name
   - coords(lat,lon)
+
 **storage:**
+
 - quantities
   - location_id
   - product_id
-  - amount
-**calculator:**
-- vat amount
-**distance-calculator:**
-- walking distance to other location
+  - amount of products
+ 
+**vat-calculator:**
 
+- vat cut of brutto price
+
+**distance-calculator:**
+
+- walking distance to other location
+  - in minutes
+  - in kilometers
