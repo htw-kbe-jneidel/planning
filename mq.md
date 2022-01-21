@@ -32,4 +32,4 @@ Services provides through RPC Queues
 
 **csv-export**
 
-- initiateExport()
+- initiateCsvExport()
