@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-21T14:04:00.680Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="6rCyVUl4QlkkoutC6UF4" version="16.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-21T17:52:51.229Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="UXmtvgnqdEUQfVTh6S2s" version="16.4.3" type="github">
   <diagram id="_RIpeCeEshGkpjxRb9AU" name="Architecture">
     <mxGraphModel dx="868" dy="1401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
           <mxGeometry x="675" y="460" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="x4NwM0fBTw6naTez4Cd2-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="180" width="220" height="100" as="geometry" />
+          <mxGeometry x="270" y="150" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="x4NwM0fBTw6naTez4Cd2-28" value="Storage" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="200" width="120" height="60" as="geometry" />
@@ -123,6 +123,9 @@
         </mxCell>
         <mxCell id="rypfoYfsOc15ovv6d-pq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="x4NwM0fBTw6naTez4Cd2-4" target="rypfoYfsOc15ovv6d-pq-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X4fqdiJfhxOrQQ3BpakS-2" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="410" y="160" width="70" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
