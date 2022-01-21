@@ -1,5 +1,7 @@
 # Diagrams
 
+Also see [master](https://github.com/htw-kbe-jneidel/planning/tree/master) branch.
+
 ## Architecture Diagram
 
 Arrangements of the micro services and the connections to other components they
