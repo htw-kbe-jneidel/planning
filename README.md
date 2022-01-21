@@ -11,7 +11,7 @@ Edit on [draw.io](https://app.diagrams.net/#Hhtw-kbe-jneidel%2Fplanning%2Fdrawio
 
 ## Sequence Diagram
 
-The flow of the most complex call through the system.
+The flow of one call through going through the entire width of the system.
 
 ![Sequence Diagram](Sequence.svg)
 
