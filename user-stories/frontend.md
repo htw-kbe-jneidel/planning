@@ -14,8 +14,6 @@ what available.
 Accept:
 - list is rendered in the frontend
 - list got obtained through the Gateway as an intermediary
-- includes Mehrwertsteuer als calculated through Calculator
-- includes Info stored through Storage Service
 
 ---
 
@@ -37,13 +35,6 @@ As a user, I want to see all items available at one location.
 
 ---
 
-As a user, I want to see all items unavailable at one location, but available
-within 15 minutes walking distance from the location.
-
-`/location/ID`
-
----
-
 As a user, I want to see all info available on a product.
 
 `/product/ID`
@@ -54,3 +45,11 @@ As a user, I want to see all location an item is available at.
 
 `/product/ID`
 
+---
+
+As a user, I want to see that an item is unavailable, along with distance and
+route to another stocking location.
+
+`/product/ID`
+
+---

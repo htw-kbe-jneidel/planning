@@ -1,9 +1,9 @@
-As a system owner, I want a CSV Export to be created after each GET so that I have a backup.
+As a system owner, I want to initiate a csv export of all data in the system.
 
 Accept:
 - Storage is setup to receive the Export
-- CSV Export is connected to GET requests
-- After Export and Import Storage has a copy of all data
+- csv saved locally in appropriate location
+- `/csv-export` in frontend
 
 ---
 
