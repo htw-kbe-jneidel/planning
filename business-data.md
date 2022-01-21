@@ -1,4 +1,4 @@
-## Product Attributes
+# Business Data
 
 **product:**
 
@@ -19,7 +19,7 @@
   - location_id
   - product_id
   - amount of products
- 
+
 **vat-calculator:**
 
 - vat cut of brutto price
