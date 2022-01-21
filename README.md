@@ -21,6 +21,6 @@ Edit on [draw.io](https://app.diagrams.net/#Hhtw-kbe-jneidel%2Fplanning%2Fdrawio
 
 Database objects and what architectural components they live in.
 
-![Entity Relationship Diagram](Entity Relationship.svg)
+![Entity Relationship Diagram](Entity%20Relationship.svg)
 
 Edit on [draw.io](https://app.diagrams.net/?client=1#Hhtw-kbe-jneidel%2Fplanning%2Fdrawio%2FEntity%20Relationship.drawio).
