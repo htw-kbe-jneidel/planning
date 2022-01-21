@@ -30,8 +30,6 @@ Services provides through RPC Queues
 - calculateDistance( startStoreLocationCoordinates, endStoreLocationCoordinates )
   => walkingDistanceInMinutes, osmLink
 
-## Worker Queues
-
 **csv-export**
 
 - initiateExport()
