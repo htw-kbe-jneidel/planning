@@ -34,5 +34,4 @@ Services provides through RPC Queues
 
 **csv-export**
 
-- createExport( product[] )
-  => csvFile
+- initiateExport()
